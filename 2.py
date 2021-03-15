@@ -1,4 +1,5 @@
 import math
+import importlib
 
 
 def banki(d, h, p):
@@ -15,3 +16,8 @@ p = int(input("Введите площадь, которую можно окра
 
 x1, x2, x3, e = banki(d, h, p)
 print("Банок необходимо: {}".format(e))
+
+
+
+module = importlib.import_module('1')
+module.formula_1(1, 2, 3, 4)
